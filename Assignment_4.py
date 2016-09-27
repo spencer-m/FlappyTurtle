@@ -1,23 +1,6 @@
-'''
-+-----------------------------+
-|     CPSC 231                |
-|     Assignment # 4          |
-|     Flappy Turtle           |
-|     Spencer A. Manzon       |
-|     Student ID: 10129731    |
-+-----------------------------+
-'''
-
-#XXX MAIN() TODO:
-#XXX-DONE: The game should have a title screen. (1 mark)
-#XXX-DONE: Pressing q or Q must exit the game. Use the game engine to get the input. (1 mark)
-#XXX-DONE: The ``flappy turtle'' must be drawn and fall unless the space bar is pressed, in which case the ``flappy turtle'' flies upwards briefly. Use the game engine for the ``flappy turtle'' and the input. (1 mark)
-#XXX-DONE: When the game is over, pressing the space bar should cause the game to restart. Use the game engine to get the input. (1 mark)
-#XXX-DONE: Using the game engine, add ``pipes'' that scroll across the bottom of the screen at regular intervals. The pipe's height should be randomly chosen. (1 mark)
-#XXX-DONE: Using the game engine, add ``pipes'' that scroll across the top of the screen at regular intervals, each positioned above a bottom pipe, leaving enough of a gap for the ``flappy bird'' to fly through. (1 mark) 
-#XXX-DONE:The score should be kept, with one point gained every time the gap between pipes is successfully cleared. Note that the score does not have to be continuously displayed and updated; it may only be shown once the game is over. (1 mark)
-#XXX-DONE: End the game if the ``flappy bird'' falls or flaps outside the screen. (1 mark)
-#XXX-DONE: End the game if the ``flappy bird'' collides with one of the pipes. (1 mark)
+#Flappy Turtle Python Game
+#Spencer Manzon
+#Assignment #4 CPSC 231 Winter 2014
 
 #import stuff
 import engine
