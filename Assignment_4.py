@@ -298,6 +298,8 @@ def title_sequence(): #spiced up title screen
 def inputkb_cb(key):
 	if key == 'q' or key == 'Q':
 		engine.exit_engine()
+	elif key == 'r' or key == 'R':
+		restart_button()
 	elif key == 'space':
 		main_button()
 
@@ -305,6 +307,8 @@ def main_button():
 	global Player
 	Player.y = Player.y + 42 #answer to life, the universe and everything
 	Player.reset_gravity()
+
+def restart_button():
 	if not GAME_RUN: #reset the game
 		play_sequence()
 
@@ -335,7 +339,7 @@ def gameover_sequence():
 	turtle.goto(0,-50)
 	turtle.write('Your Score: ' + str(Player.get_score()), align='center', font=('IMPACT', 30, 'bold'))	
 	turtle.goto(0,-250)
-	turtle.write('Press SPACE to restart \n Press Q to chicken out', align='center', font=('IMPACT', 30, 'bold'))
+	turtle.write('Press R to restart\n Press Q to chicken out', align='center', font=('IMPACT', 30, 'bold'))
 
 def play_sequence():
 	global GAME_RUN
